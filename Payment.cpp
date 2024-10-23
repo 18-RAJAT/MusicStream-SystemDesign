@@ -6,7 +6,7 @@ int main()
     PaymentService paymentService;
     string stripeUserID="StripUser1";
     double stripeAmount=50.0;
-    if(paymentService.processStripePayment(stripeUserID, stripeAmount))
+    if(paymentService.processStripePayment(stripeUserID,stripeAmount))
     {
         cout<<"Stripe Payment was successful!"<<endl;
     }
